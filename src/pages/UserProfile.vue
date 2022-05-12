@@ -72,6 +72,10 @@ export default {
       setTimeout(() => this.$refs.list.formSubmit() , 1000);
     },
     geturl() {
+
+      console.log(window.location.href); 
+      
+      
       let url= window.location.hash
       let token = url.split("token=");
       this.variabletoken=token[1]

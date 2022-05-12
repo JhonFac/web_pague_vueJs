@@ -102,9 +102,8 @@ export default {
 
             this.token = data.token // input
             this.$emit('escuchar', data.token)
-
             this.showToken = true
-            window.location.href = "http://localhost:8082/#/user?token="+data.token
+            window.location.href = window.location.href+"?token="+data.token
         })
         .catch(function (error) {
           this.emgs = error;

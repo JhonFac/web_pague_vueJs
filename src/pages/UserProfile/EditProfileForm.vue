@@ -74,9 +74,9 @@ export default {
   data() {
     return {
       array: {},
-      Nombre:'diana',
-      Apellido:'garzon',
-      Telefono:'123456789',
+      Nombre:'',
+      Apellido:'',
+      Telefono:'',
       Identificacion:'',
       Fecha_Naimiento:'2002-05-14',
       dato: '',
@@ -85,7 +85,7 @@ export default {
       titulo1:'',
       resError:'',
       titulo2:'',
-      correo:'nunc.sed@neque.org',
+      correo:'',
       showRespError:true
     };
   },
